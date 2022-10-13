@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.NavigationBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #ED1C2E;
+}
+
+.LogoContainer {
+  width: 20%;
+  background-color: black;
+}
+
+.Options {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  background-color: #ED1C2E;
+  color: white;
+  padding-right: 20px;
+}
+
+.ImageContainer{
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#qr_canvas {
+  width: 100%;
+  height:100vh;
+}
+
+.Overlay {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  text-align: left;
+}
+
+.Button {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  background: white;
+  color: black;
+  justify-content: center; 
+  align-items: center;
+}
+
+.Brands {
+  width: 65%;
+  margin: 20px auto;
+  opacity: 1;
+}
+
+.BrandRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Brand {
+  width: 16.5%;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.Work {
+
+}
+
+.WorkDes {
+  color: grey;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.Card {
+  width: 49%;
+  height: 350px;
+}
+
+.CardImage {
+  
+}
+
+.CardTitle {
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.CardText {
+  padding: 0 25px;
+}
+
+.CTitle {
+  font-size: 20px;
+}
+
+.Community {
+  width: 32%;
+}
+
+.CommunityImage {
+  width: 70px;
+}
+
+.VContainer {
+  width: 100%;
+}
+
+.HelpImg {
+  width: 50%;
+}
